@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+  .h{
+    text-decoration: none;color: white;margin-left: 0px;
+  }
+  :hover.h{
+    background-color: red;border-radius: 5px;
+  }
+  body{
+    background-image:url(desk.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;
+  }
+
+  /* contact css */
+
+   
+
+.contact-container {
+   
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  max-width: 400px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-group textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+    </style>
+     
+     <link href="bootstrap.css" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row " style="background-color:black;">
+       <div class="col-2"> <a href="Login.html" class="h">LOGIN</a></div> 
+       <div class="col-2"> <a href="register.html" class="h">REGISTER</a></div>  
+       <div class="col-2"> <a href="faq.html" class="h">FAQ</a></div>  
+       <div class="col-2"> <a href="gallery.html" class="h">GALLERY</a></div>  
+       <div class="col-2"> <a href="contact.html" class="h">CONTACT</a></div>  
+       <div class="col-2"> <a href="about.html" class="h">ABOUT</a></div>   
+ 
+    </div>
+    </div>
+     
+    <!-- form -->
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+      
+        <div class="contact-container">
+          <form class="contact-form" action="#" method="post">
+            <h2> <b>Contact Us</b></h2>
+            <div class="input-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        
+
+      </div>
+      <div class="col-4"></div>
+    </div>
+</body>
+</html>
